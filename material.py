@@ -21,12 +21,12 @@ Type `/help` For Commands!
 
 startxt2 = """Hello [{}](tg://user?id={}),
 
-__This Is A BanAll Bot\nOnly My Owner Can Access This Bot!\nCreated By @NotAakash\__
+__This Is A BanAll Bot\nOnly My Owner Can Access This Bot!\nCreated By @SED_BOY_143
 
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+❍ Code Owner » [💫OWNER💫](https://t.me//{})
 """
 
 hlptxt = """ Hello [{}](tg://user?id={}),
@@ -39,5 +39,5 @@ __Here is the help menu__:
  /leave - To leave group.
  /restart - To restart the bot.
 
-❍ Meet My Owner At [SUPPORT](https://t.me/GFC_SUPPORT) FOR ANY KIND OF ISSUES!!
+❍ Meet My Owner At [SUPPORT](https://t.me/DX_info) FOR ANY KIND OF ISSUES!!
 """
