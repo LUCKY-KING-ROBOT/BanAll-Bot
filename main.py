@@ -31,16 +31,16 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "AakashxDx"
-repo = "https://github.com/AakashxDx/BanallBot"
+Owner = "SED_BOY_143"
+repo = "https://github.com/LUCKY-KING-ROBOT/BanAllBot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/GFC_SUPPORT"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/DX_info"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://telegra.ph/file/3eda835b594774ebcf4da.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -54,7 +54,7 @@ async def start(event):
     if event.sender.id not in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://te.legra.ph/file/3eda835b594774ebcf4da.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -74,7 +74,7 @@ async def start(event):
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://te.legra.ph/file/3eda835b594774ebcf4da.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
@@ -93,7 +93,7 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"I am Alive!!\n\nPing Pong🏓\n`{ms} ms`")
+        await txxt.edit(f"I am Alive!!\n @SED_BOY_143 \nPing Pong🏓\n`{ms} ms`")
 
 
 @main.on(events.NewMessage(pattern="^/banall"))
@@ -163,7 +163,7 @@ async def leave(z):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @GFC_SUPPORT if you facing any kind of issue!!")
+print("Join @DX_info if you facing any kind of issue!!")
 
 
 
