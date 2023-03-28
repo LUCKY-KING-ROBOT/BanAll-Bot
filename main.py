@@ -31,8 +31,8 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "SED_BOY_143"
-repo = "https://github.com/LUCKY-KING-ROBOT/BanAllBot"
+Owner = "DX_info"
+repo = "https://github.com/LUCKY-KING-ROBOT/BanAll-Bot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
     buttns = [Button.url("Support", "https://t.me/DX_info"), Button.url("Repo", f'{repo}')]
@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/GFC_SUPPORT"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("SUPPORT", "https://t.me/LUCKY_ABOUT"), Button.url("REPO", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -81,7 +81,7 @@ async def start(event):
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/aakashxdx/BanallBot)",
+            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/LUCKY-KING-ROBOT/BanAll-Bot)",
             link_preview=False,
         )       
 
